@@ -1,0 +1,65 @@
+body{
+  font-family: arial;
+  font-size: 20px;
+  background-color: #697580;
+}
+.flags{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  justify-items: center;
+}
+.text{
+  border: 2px solid #FEFBF4;
+  margin: 50px 70px 30px 70px;
+  padding: 10px;
+  text-align: center;
+  color: #FEFBF4;
+}
+.flag{
+  width: 300px; 
+  height: 200px;
+  position: relative;
+  transition: easy .3s;
+}
+.name{
+  width: 100%; 
+  font-size: 27px;
+  opacity: 0;
+  text-align: center;
+  color: #FEFBF4;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 0%;
+  background: #8493A1;
+}
+.flag-1{
+  background: linear-gradient(to right, #009b48 33%, white 33% 67%, #ff7900 67%);
+}
+.flag-2{
+  background: linear-gradient(47deg, #9E1200 40%, white 40% 42%, black 42% 56%, white 56% 58%, #9E1200 58%);
+}
+.flag-3{
+  background: linear-gradient(135deg, #009543 40%, #fcde4a 40% 60%, #db241e 60%);
+}
+.flag-4{
+  background: linear-gradient(to bottom, #eb2839 25%, #1a206e 25% 50%, #fed501 50% 75%, #02a650 75%);
+}
+.flag-5{
+  background: linear-gradient(to bottom, #449ed3 31%, white 31% 34%, black 34% 65%, white 65% 68%, #449ed3 68%);
+}
+.flag-6{
+  background: linear-gradient(to right, white 33%, transparent 33%),
+  linear-gradient(to bottom, #fd3f33 50%, #017e3a 50%);
+}
+.flag:hover{
+
+  transition: .3s;
+}
+.flag:hover > .name{
+  opacity: 1;
+}
+
