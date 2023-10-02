@@ -8,7 +8,7 @@ size = 100
 image = np.zeros((size, size, 3), dtype="uint8")
 assert image.shape[0] == image.shape[1]
 
-color1 = [98, 221, 255]
+color1 = [100, 221, 255]
 color2 = [166, 132, 230]
 
 for i in range(size):
